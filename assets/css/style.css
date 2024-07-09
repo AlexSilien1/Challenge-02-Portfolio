@@ -7,18 +7,50 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
+    /* margin: 15px;  */
+    /* this is for outside in terms of free roam land */
+    border: 10px solid blue;
+    /* this is directly surrounding the object in terms of the fence that surrounds the home separating free land from the property your home sits on */
+    padding: 20px;
+    /* this is the space inside the object or what it takes up in terms of the actual space that you have between your home and the actual fencing itself */
 }
 
 .header h1{
+    color: white;
     display: inline;
     font-size: 30px;
+    text-decoration: underline;
 }
 
 .header nav ul li{
     display: inline;
     margin-left: 25px;
+}
+
+.article-spacing{
+margin: 10%;
+display: flex;
+}
+
+.top-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    width: 100%;
+}
+
+.left-article{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.space-between{
+    padding-top: 15px;
+    padding-bottom: 375px;
+    text-decoration-style: solid;
+    font-size: 35px;
 }
